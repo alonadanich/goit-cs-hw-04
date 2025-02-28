@@ -1,3 +1,4 @@
+
 import time
 import multiprocessing
 from collections import defaultdict
@@ -61,5 +62,4 @@ if __name__ == "__main__":
     print("Multiprocessing results:", result)
     for file, duration in times.items():
         print(f"Час виконання процесу для {file}: {duration:.4f} секунд")
-    
     print(f"Загальний час виконання (Multiprocessing): {end_time - start_time:.4f} секунд")
